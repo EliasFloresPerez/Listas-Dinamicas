@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const input =  setBtn.nextElementSibling.nextElementSibling; // xd
       console.log(index,input);
       animar(index.value);
+      //xd
 
       console.log(total[index.value]);
       setTimeout(() => {
