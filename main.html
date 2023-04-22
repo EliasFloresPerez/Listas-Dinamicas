@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href = "css/estilos.css">
+
+</head>
+
+
+
+<body>
+    
+    <div class="container py-3">
+		<h1 id="titulo" class="text-center animate__animated animate__headShake ">Lista dinámica</h1>
+	</div>
+
+  
+
+
+  <div id="circles-container"></div>
+
+    <div class="fixed-bottom">
+        <div class="d-flex flex-wrap justify-content-center align-items-start" id="botones">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <button class="btn btn-primary btn-block" id = "setBtn">Set</button>
+            <input type="text" class="form-control" placeholder="Index">
+            <input type="text" class="form-control" placeholder="Valor">
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <button class="btn btn-primary btn-block" id = "insertBtn">Insert</button>
+            <input type="text" class="form-control" placeholder="Index">
+            <input type="text" class="form-control" placeholder="Valor">
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <button class="btn btn-primary btn-block" id = "addBtn">Add</button>
+            <input type="text" class="form-control" placeholder="Valor">
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <button class="btn btn-primary btn-block" id = "deleteBtn">Delete</button>
+            <input type="text" class="form-control" placeholder="Index">
+            <input type="text" class="form-control" placeholder="Valor">
+          </div>
+
+        </div>
+      </div>
+      
+      
+      
+      
+      <script src="js/main.js"></script>
+      <script src="js/LinkedList.js"></script>
+
+</body>
+
+
+</html>
